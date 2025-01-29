@@ -1,7 +1,8 @@
 /*import { useState } from 'react'*/
+import HeaderNav from './components/navbar/Navbar'
 import PageTwo from './components/Discover/Discover'
 import './App.css'
-import HeaderNav from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 
 function App() {
   
@@ -10,10 +11,13 @@ function App() {
     <>
     <HeaderNav/>
     <PageTwo/>
-     
+    <Footer />
       
     </>
+
   )
 }
 
 export default App
+
+
