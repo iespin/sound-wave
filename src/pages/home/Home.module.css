@@ -4,6 +4,8 @@
     text-align: start;
     padding: 1rem;
     margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
     z-index: 10;
     background-color: #2f303a;
     color: white;
@@ -62,10 +64,18 @@
     right: -3rem;
 }
 
-
 .girlImg {
     display: none;
+
+}
+
+@media (min-width: 1024px) {
+
+.girlImg {
+    display: block;
     height: auto;
     min-width: 20rem;
     max-width: 28rem;
+}
+
 }
