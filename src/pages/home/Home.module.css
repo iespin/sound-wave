@@ -1,0 +1,71 @@
+.homeCard {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem;
+    margin-left: 1rem;
+    z-index: 10;
+    background-color: #2f303a;
+    color: white;
+}
+
+.textButtonCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titlePageOne {
+    display: flex;
+    height: 8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textPageOne {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.titlePageOne, .textPageOne {
+    margin: 0px;
+
+}
+
+.circleTop {
+    background: #3457b21a;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 6rem;
+    left: 8rem;
+}
+
+.circleBottomLeft {
+    background: #bc3a801a;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.circleBottomRight {
+    background: #3457b21a;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    bottom: -3rem;
+    right: -3rem;
+}
+
+
+.girlImg {
+    display: none;
+    height: auto;
+    min-width: 20rem;
+    max-width: 28rem;
+}
