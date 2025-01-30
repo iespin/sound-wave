@@ -1,23 +1,18 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color:#202027;
-    align-items: center;
-    height: 100%;
+    z-index: 100;
+    position: fixed;
+    justify-content: space-around;
     width: 100%;
     padding-top: 20px;
-    padding-bottom: 20px;
-   
 }
 
 .navContainerLeft{
     display: flex;
     flex-direction: flex-start;
-    align-items: center;
-    margin-left: 300px;
     gap: 10px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .logo{
@@ -31,7 +26,7 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding-right: 300px;
+    
 }
 
 .text{
@@ -46,9 +41,8 @@
         display: flex;
         flex-direction: flex-start;
         align-items: center;
-        margin-left: 300px;
         gap: 10px;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     .navContainerRigth{
         display: flex;
@@ -61,22 +55,24 @@
     .container{ 
         display: flex;
         flex-direction: row;
-        align-items: center;
-        gap: 55px;
-        margin-right: 5px;
+        justify-items: center;
+        justify-content: space-around;
+     
     }
+    
 
     .navContainerLeft{
-      margin-left: 50px;
-      font-size: 2rem;
-      gap: 30px;
+      justify-items: center;
+      margin-left: 5px;
+      font-size: 1.6rem;
+      gap: 25px;
     }
 
     .navContainerRigth{
-        font-size: 1.6rem;
-        gap: 25px;
-        padding-left: 0px; 
-        padding-right: 35px;
+        font-size: 1.2rem;
+        gap: 15px;
+         
+        
     }
 }
 
