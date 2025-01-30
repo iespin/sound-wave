@@ -1,0 +1,219 @@
+body {
+  background-color: #2d2d2d;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.page3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.page3-main {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  width: 90%;
+  padding: 2rem;
+}
+
+.text-section {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.text-section h1 {
+  font-size: 5rem;
+  margin-bottom: 0.7rem;
+  text-align: left;
+  max-width: 450px;
+  white-space: 0;
+}
+
+.highlight {
+  color: #ff007f;
+}
+
+.form-section {
+  flex: 1;
+  max-width: 400px;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+.form-section label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: white;
+}
+
+.form-section button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-section button:hover {
+  background-color: #0051cc;
+}
+
+.error-message {
+  color: #ce8181;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.success-message {
+  color: #7db37d;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: #1a1a1a;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Background Circles */
+.background-circles::before,
+.background-circles::after {
+  content: "";
+  position: relative;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+/* Desktop Circle Positions */
+@media (max-width: 1024px) {
+  .page3-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    text-align: left;
+  }
+
+  .text-section {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 1.5rem;
+   
+    
+  }
+  .form-section{
+    flex: 1;
+    max-width: 400px;
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .background-circles::before {
+      width: 350px;
+      height: 350px;
+      background-color: #0066ff;
+      position: absolute;
+      top: -15%;
+      left: 23%;
+  }
+  .background-circles::after {
+      width: 400px;
+      height: 400px;
+      background-color: #ff007f;
+      position: absolute;
+      bottom: -10%;
+      left: -8%;
+  }
+}
+
+/* Mobile Circle Positions */
+@media (max-width: 768px) {
+  .page3-main{
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+  }
+  .text-section{
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  .form-section h1{
+    font-size: 2.5rem;
+    
+  }
+  .form-section{
+    margin-left: 0;
+    
+  }
+  .background-circles::before {
+      width: 120px;
+      height: 120px;
+      background-color: #0066ff;
+      top: -5%;
+      left: 5%;
+  }
+  .background-circles::after {
+      width: 180px;
+      height: 180px;
+      background-color: #ff007f;
+      bottom: -5%;
+      left: -25%;
+  }
+}
+
+/* Adjustments for Small Screens */
+@media (max-width: 480px) {
+  .text-section h1 {
+      font-size: 2rem;
+  }
+  .form-section {
+      padding: 1.5rem;
+  }
+  .background-circles::before {
+    width: 120px;
+    height: 120px;
+    background-color: #0066ff;
+    top: -5%;
+    left: 5%;
+}
+.background-circles::after {
+    width: 180px;
+    height: 180px;
+    background-color: #ff007f;
+    bottom: -5%;
+    left: -25%;
+}
+}
