@@ -1,29 +1,25 @@
-import './Footer.modules.css';
+import styles from './Footer.module.css'
 import twitter from '../../assets/twitter.svg'
-import facebbok from '../../assets/facebook.svg'
+import facebook from '../../assets/facebook.svg'
 
 function Footer() {
   return (
-    
-    <div>
+  
 
-    <footer className="footer">
+      <footer className={styles.footer}>
+        <p>About us</p>  
+        <p>Contact</p>
+        <div className={styles.twitter}>
+          <img src={twitter} alt="Logo Twitter" />
+          <p>Twitter</p>
+        </div>
+        <div className={styles.facebook}>
+          <img src={facebook} alt="Logo Facebook" />
+          <p>Facebook</p>
+        </div>
+      </footer>
+   
 
-
-      <p>About us</p>  
-      
-      <p>Contact</p>
-      <div className="twitter">
-      <img src={twitter} alt="Logo twiter"/>
-       <p>Twitter</p>
-       </div>
-       <div className="facebook">
-         <img src={facebbok} alt="Logo facebook"/>
-         <p>Facebook</p>
-       </div>
-     
-    </footer>
-    </div>
 
   );
 }       
