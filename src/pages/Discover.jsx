@@ -1,8 +1,8 @@
-import styles from "./Discover.module.css";
-import covers from"../../assets/covers.jpg";
-import microphone from"../../assets/microphone.svg";
-import albums from"../../assets/albums.svg";
-import more from"../../assets/more.svg";
+import styles from "../components/Discover/Discover.module.css";
+import covers from"../assets/covers.jpg";
+import microphone from"../assets/microphone.svg";
+import albums from"../assets/albums.svg";
+import more from"../assets/more.svg";
 
 function PageTwo () {
 
