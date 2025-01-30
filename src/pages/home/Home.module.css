@@ -1,0 +1,116 @@
+
+.homeCard {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f303a;
+    color: white;
+
+}
+
+.imageContainer {
+    display: flex;
+    align-self: flex-end;
+}
+
+.textButtonCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titlePageOne {
+    display: flex;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textPageOne {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.circleTop {
+    background: #3457b21a;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+}
+
+.circleBottomLeft {
+    background: #bc3a801a;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.circleBottomRight {
+    background: #3457b21a;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    bottom: -4rem;
+    right: -4rem;
+}
+
+.girlImg {
+    display: none;
+
+}
+
+@media (min-width: 1024px) {
+
+.homeCard {
+    min-height: 100vh;
+    min-width: 110vh;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titlePageOne {
+    height: 1rem;
+}
+
+.girlImg {
+    display: flex;
+    height: auto;
+    min-width: 20rem;
+    max-width: 28rem;
+    z-index: 10;
+}
+
+.circleTop {
+    width: 27rem;
+    height: 27rem;
+    position: absolute;
+    top: 10rem;
+    left: 38rem;
+}
+
+.circleBottomRight {
+    width: 44rem;
+    height: 44rem;
+    position: absolute;
+    bottom: -19rem;
+    right: -18rem;
+}
+
+.circleBottomLeft {
+    width: 27rem;
+    height: 27rem;
+    position: absolute;
+    bottom: 6rem;
+    left: 8rem;
+}
+
+
+}
