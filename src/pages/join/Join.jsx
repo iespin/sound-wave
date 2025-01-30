@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./Join.css";
+import HeaderNav from "../../components/navbar/Navbar";
+import Footer from '../../components/footer/Footer'
 
 const Page3 = () => {
     const [formData, setFormData] = useState({ name: "", email: "", password: "" });
@@ -58,6 +60,8 @@ const Page3 = () => {
     };
 
     return (
+        <>
+        <HeaderNav/>
         <div className="page3">
             <div className="background-circles"></div>
             <main className="page3-main">
@@ -97,6 +101,8 @@ const Page3 = () => {
                 </form>
             </main>
         </div>
+        <Footer/>
+        </>
     );
 };
 

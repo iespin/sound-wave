@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router"
 import App from "../App"
 import Discover from "../pages/discover/Discover"
-import Join from "../pages/Join"
+import Join from "../pages/join/Join"
 
 
 function Router() {
