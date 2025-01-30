@@ -12,7 +12,7 @@ const Join = () => {
         let errors = {};
         const nameRegex = /^[a-zA-Z\s]+$/;
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@+`'-¡ç´¡$!%*?&#.$($)$-$_]{8,25}$/;
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@+`'-¡ç´¡$!%*?&#.$($)$-$_]{8,16}$/;
         const trimmedPassword = formData.password.trim();
 
         console.log("Validating password:", trimmedPassword);  // pass?
