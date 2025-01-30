@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router"
 import App from "../App"
-import Discover from "../components/Discover/Discover"
+import Discover from "../pages/discover/Discover"
 import Join from "../pages/Join"
 
 

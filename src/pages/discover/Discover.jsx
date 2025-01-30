@@ -1,17 +1,17 @@
-import styles from "./Discover.module.css";
+import styles from "../../pages/discover/Discover.module.css";
 import covers from"../../assets/covers.jpg";
 import microphone from"../../assets/microphone.svg";
 import albums from"../../assets/albums.svg";
 import more from"../../assets/more.svg";
-import HeaderNav from "../navbar/Navbar";
-import Footer from "../footer/Footer";
+import Footer from "../../components/footer/Footer";
+import HeaderNav from "../../components/navbar/Navbar";
+
 function PageTwo () {
 
     return (
-    <>
+        <>
         <HeaderNav/>
     <div className={styles.BodyPageTwo}>
-        
         <div className={styles.LeftContainer}>
             <h1 className={styles.Title}>Discover new music</h1>
                  <div className={styles.BottonsDiscover}>
@@ -33,10 +33,9 @@ function PageTwo () {
         <div className={styles.CenterImage}>
             <img src={covers} alt="album covers" />
         </div>
-        <Footer/>
     </div>
+    <Footer/>
     </>
-
     )
 }
 export default PageTwo
