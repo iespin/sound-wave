@@ -3,11 +3,15 @@ import covers from"../../assets/covers.jpg";
 import microphone from"../../assets/microphone.svg";
 import albums from"../../assets/albums.svg";
 import more from"../../assets/more.svg";
-
+import HeaderNav from "../navbar/Navbar";
+import Footer from "../footer/Footer";
 function PageTwo () {
 
     return (
+    <>
+        <HeaderNav/>
     <div className={styles.BodyPageTwo}>
+        
         <div className={styles.LeftContainer}>
             <h1 className={styles.Title}>Discover new music</h1>
                  <div className={styles.BottonsDiscover}>
@@ -29,7 +33,10 @@ function PageTwo () {
         <div className={styles.CenterImage}>
             <img src={covers} alt="album covers" />
         </div>
+        <Footer/>
     </div>
+    </>
+
     )
 }
 export default PageTwo
