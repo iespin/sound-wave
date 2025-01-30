@@ -1,6 +1,6 @@
 /*import { useState } from 'react'*/
 import HeaderNav from './components/navbar/Navbar'
-import PageTwo from './components/Discover/Discover'
+import PageTwo from '../src/pages/Discover'
 import './App.css'
 import Footer from './components/footer/Footer'
 
