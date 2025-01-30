@@ -2,7 +2,7 @@ import styles from './Home.module.css'
 import landingGirl from '../../assets/landing-page-girl.png'
 import HeaderNav from '../../components/navbar/Navbar'
 
-function PageOne () {
+function Home () {
 
 return (
     <>
@@ -34,4 +34,4 @@ return (
 
 }
 
-export default PageOne
+export default Home

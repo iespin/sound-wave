@@ -1,4 +1,4 @@
-import PageOne from './pages/home/Home'
+import Home from './pages/home/Home'
 import './App.css'
 
 
@@ -6,7 +6,7 @@ function App() {
   
 return (
   <>
-    <PageOne />
+    <Home />
 
   </>
 

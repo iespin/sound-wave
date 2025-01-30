@@ -6,7 +6,7 @@ import more from"../../assets/more.svg";
 import Footer from "../../components/footer/Footer";
 import HeaderNav from "../../components/navbar/Navbar";
 
-function PageTwo () {
+function Discover () {
 
     return (
         <>
@@ -38,4 +38,4 @@ function PageTwo () {
     </>
     )
 }
-export default PageTwo
+export default Discover

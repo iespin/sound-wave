@@ -3,7 +3,7 @@ import "./Join.css";
 import HeaderNav from "../../components/navbar/Navbar";
 import Footer from '../../components/footer/Footer'
 
-const Page3 = () => {
+const Join = () => {
     const [formData, setFormData] = useState({ name: "", email: "", password: "" });
     const [errors, setErrors] = useState({});
     const [successMessage, setSuccessMessage] = useState("");
@@ -106,7 +106,7 @@ const Page3 = () => {
     );
 };
 
-export default Page3;
+export default Join;
 
 
 

@@ -1,16 +1,13 @@
 
 .BodyPageTwo {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #2F303A;
-    color: white;
-    font-family: Poppins;
     min-height: 100vh;
     padding: 5%;
 }
+
 .BottonsDiscover {
     display: flex;
     justify-content: center;
@@ -53,7 +50,6 @@ h5 {
     margin-top: 1rem;
     color: white;
     width: 90%;
-    font-family: Poppins;
 }
 .CenterImage {
     display: flex;
@@ -111,7 +107,6 @@ h5 {
         font-size: 1rem;
         color: white;
         width: 90%;
-        font-family: Poppins;
     }
     .CenterImage {
         grid-column: 2 / 3;
