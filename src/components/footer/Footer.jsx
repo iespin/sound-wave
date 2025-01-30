@@ -1,4 +1,4 @@
-import './Footer.css';
+import './Footer.modules.css';
 import twitter from '../../assets/twitter.svg'
 import facebbok from '../../assets/facebook.svg'
 
