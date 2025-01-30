@@ -7,17 +7,16 @@
     height:60px;
     display: flex;
     position: fixed;
-    justify-content: space-around;
+    left: 0%;
+    justify-content:space-around;
     font-family: poppins;
     font-size: 1.2 rem;
 
   }
-  
-.footer-content  {
-    margin: 5px 0;
-  }
+
  
   .twitter {
+    background-color: #202027;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -29,7 +28,10 @@
     font-family: poppins;
     font-size: 1.2 rem;
   }
-
+ .twitter img{
+    width: 10px;
+    height: 10px;
+  }
   .facebook {  
     display: flex;
     flex-direction: column;
@@ -43,3 +45,17 @@
     font-size: 1.2 rem;
   
     }
+
+  @media screen and (min-width: 1024px) {
+    .facebook {
+      display: flex;
+      text-align: center;
+      width: 10px;
+      height: 10px;
+      margin-top: 1%;
+      align-items: center;
+      line-height:0;
+      font-family: poppins;
+      font-size: 1.2 rem;
+    }
+  }
