@@ -1,14 +1,18 @@
+
 .homeCard {
     display: flex;
     flex-direction: column;
     text-align: start;
-    padding: 1rem;
-    margin-left: 1rem;
     align-items: center;
     justify-content: center;
-    z-index: 10;
     background-color: #2f303a;
     color: white;
+
+}
+
+.imageContainer {
+    display: flex;
+    align-self: flex-end;
 }
 
 .textButtonCard {
@@ -19,7 +23,6 @@
 
 .titlePageOne {
     display: flex;
-    height: 8rem;
     font-weight: 400;
     line-height: normal;
 }
@@ -28,11 +31,6 @@
     display: flex;
     padding-top: 1rem;
 }
-
-/* .titlePageOne, .textPageOne {
-    margin: 0px;
-
-} */
 
 .circleTop {
     background: #3457b21a;
@@ -60,8 +58,8 @@
     width: 10rem;
     height: 10rem;
     position: absolute;
-    bottom: -3rem;
-    right: -3rem;
+    bottom: -4rem;
+    right: -4rem;
 }
 
 .girlImg {
@@ -71,11 +69,30 @@
 
 @media (min-width: 1024px) {
 
+.homeCard {
+    min-height: 100vh;
+    min-width: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titlePageOne {
+    height: 1rem;
+}
+
 .girlImg {
-    display: block;
+    display: flex;
     height: auto;
     min-width: 20rem;
     max-width: 28rem;
+}
+
+.circleBottomRight {
+    width: 44rem;
+    height: 44rem;
+    position: absolute;
+    bottom: -17rem;
+    right: -17rem;
 }
 
 }
