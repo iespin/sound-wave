@@ -1,21 +1,16 @@
-/*import { useState } from 'react'*/
-import HeaderNav from './components/navbar/Navbar'
-import PageTwo from './pages/discover/Discover'
+import PageOne from './pages/home/Home'
 import './App.css'
-import Footer from './components/footer/Footer'
+
 
 function App() {
   
+return (
+  <>
+    <PageOne />
 
-  return (
-    <>
-    
-    <PageTwo/>
-    <Footer />
-      
-    </>
+  </>
 
-  )
+)
 }
 
 export default App
