@@ -96,9 +96,9 @@
 .background-circles::before,
 .background-circles::after {
   content: "";
-  position: relative;
+  position: absolute;
   border-radius: 50%;
-  opacity: 0.3;
+  opacity: 4;
   z-index: 1;
 }
 
@@ -132,7 +132,7 @@
   .background-circles::before {
       width: 350px;
       height: 350px;
-      background-color: #0066ff;
+      background-color: #3457b21a;
       position: absolute;
       top: -15%;
       left: 23%;
@@ -140,7 +140,7 @@
   .background-circles::after {
       width: 400px;
       height: 400px;
-      background-color: #ff007f;
+      background-color: #bc3a801a;
       position: absolute;
       bottom: -10%;
       left: -8%;
@@ -169,14 +169,14 @@
   .background-circles::before {
       width: 120px;
       height: 120px;
-      background-color: #0066ff;
+      background-color: #3457b21a;
       top: -5%;
       left: 5%;
   }
   .background-circles::after {
       width: 180px;
       height: 180px;
-      background-color: #ff007f;
+      background-color: #bc3a801a;
       bottom: -5%;
       left: -25%;
   }
@@ -193,14 +193,14 @@
   .background-circles::before {
     width: 120px;
     height: 120px;
-    background-color: #0066ff;
+    background-color: #3457b21a;
     top: -5%;
     left: 5%;
 }
 .background-circles::after {
     width: 180px;
     height: 180px;
-    background-color: #ff007f;
+    background-color: #bc3a801a;
     bottom: -5%;
     left: -25%;
 }
