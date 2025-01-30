@@ -4,29 +4,35 @@
     z-index: 100;
     position: fixed;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     padding-top: 20px;
+    top: 0;
+    left: 0;
 }
 
 .navContainerLeft{
     display: flex;
     flex-direction: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    padding-left: 50px;
 }
 
 .logo{
     display: flex;
     width: 50px;
     height: 50px;
-
 }
 
 .navContainerRigth{
     display: flex;
     flex-direction: row;
+    font-size: 1.2rem;
     gap: 30px;
-    
+    padding-right: 50px;
 }
 
 .text{
@@ -36,7 +42,7 @@
     text-decoration: none;
 }
 
-@media all and (min-width: 577px) and (max-width: 1200px){
+@media all and (min-width: 1024px){
     .navContainerLeft{
         display: flex;
         flex-direction: flex-start;
@@ -49,30 +55,6 @@
         flex-direction: row;
         gap: 30px;
         margin-right: 5px;
-    }
-}
-@media  all and (max-width: 576px){
-    .container{ 
-        display: flex;
-        flex-direction: row;
-        justify-items: center;
-        justify-content: space-around;
-     
-    }
-    
-
-    .navContainerLeft{
-      justify-items: center;
-      margin-left: 5px;
-      font-size: 1.6rem;
-      gap: 25px;
-    }
-
-    .navContainerRigth{
-        font-size: 1.2rem;
-        gap: 15px;
-         
-        
     }
 }
 
