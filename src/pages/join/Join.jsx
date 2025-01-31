@@ -12,7 +12,7 @@ const Join = () => {
         let errors = {};
         const nameRegex = /^[a-zA-Z\s]+$/;
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@+`'-¡ç´¡$!%*?&#.$($)$-$_]{8,25}$/;
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@+`'-¡ç´¡$!%*?&#.$($)$-$_]{8,16}$/;
         const trimmedPassword = formData.password.trim();
 
         console.log("Validating password:", trimmedPassword);  // pass?
@@ -62,9 +62,9 @@ const Join = () => {
     return (
         <>
         <HeaderNav/>
-        <div className="page3">
+        <div className="Join">
             <div className="background-circles"></div>
-            <main className="page3-main">
+            <main className="Join-main">
                 <div className="text-section">
                     <h1>Join the<span className="highlight"> fun.</span></h1>
                 </div>

@@ -10,18 +10,27 @@
     left: 0%;
     justify-content:space-around;
     font-family: poppins;
+    font-weight: bold;
     font-size: 1.2 rem;
 
   }
-
- 
-  .twitter {
-    background-color: #202027;
+.social{
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+    margin-top: 1%;
+    font-weight: bold;
+  }
+ .about{
+    display: flex;
+    gap: 15px;
+    padding-right:46px;
+    font-weight: bold;
+  }
+  .twitter,.facebook {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 10px;
-    height: 10px;
     margin-top: 1%;
     align-items: center;
     line-height:0;
@@ -29,33 +38,50 @@
     font-size: 1.2 rem;
   }
  .twitter img{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
   }
-  .facebook {  
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 10px;
-    height: 10px;
-    margin-top: 1%;
-    align-items: center;
-    line-height:0;
-    font-family: poppins;
-    font-size: 1.2 rem;
-  
+    
+    .facebook img{
+      width: 15px;
+      height: 15px;
+      margin-top: 4px;
     }
 
   @media screen and (min-width: 1024px) {
-    .facebook {
+    .footer{
       display: flex;
-      text-align: center;
-      width: 10px;
-      height: 10px;
-      margin-top: 1%;
       align-items: center;
-      line-height:0;
-      font-family: poppins;
-      font-size: 1.2 rem;
+      height: 40px;
+      width: 100%;
+      background-color: #202027;
+      position: fixed;
+      bottom: 0%;
+      left: 0%;
+    }
+    .about{
+      display: flex;
+      gap: 10px;
+    }
+    .social{
+      display: flex;
+      gap: 15px;
+      margin:0%;
+      
+    }
+    .twitter, .facebook{
+      display:flex;
+      flex-direction:row;
+      gap: 7px;
+      
+    }
+    .twitter img, .facebook img{
+     display: flex;
+      width: 13px;
+      height: 13px;
+      margin: 0%;
+      
     }
   }
+  
