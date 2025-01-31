@@ -7,8 +7,11 @@ function Footer() {
   
 
       <footer className={styles.footer}>
-        <p>About us</p>  
+      <div className={styles.about}>
+        <p>About us</p>
         <p>Contact</p>
+        </div>
+        <div className={styles.social}>
         <div className={styles.twitter}>
           <img src={twitter} alt="Logo Twitter" />
           <p>Twitter</p>
@@ -16,6 +19,7 @@ function Footer() {
         <div className={styles.facebook}>
           <img src={facebook} alt="Logo Facebook" />
           <p>Facebook</p>
+        </div>
         </div>
       </footer>
    
