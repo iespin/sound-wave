@@ -1,4 +1,4 @@
-import './Join-now.css';
+import './Join-now.modules.css';
 
 function JoinNow() {
   return (
@@ -7,3 +7,5 @@ function JoinNow() {
     </div>
   );
 }
+
+export default JoinNow

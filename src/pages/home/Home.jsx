@@ -1,6 +1,7 @@
 import styles from './Home.module.css'
 import landingGirl from '../../assets/landing-page-girl.png'
 import HeaderNav from '../../components/navbar/Navbar'
+import JoinNow from '../../components/buttons/Join-now'
 
 function Home () {
 
@@ -22,6 +23,8 @@ return (
 
         <p className={styles.textPageOne}>Stream over 20 thousand songs with one click</p>
         
+        <JoinNow/>
+
     </div>
 
     <div className={styles.circleBottomLeft}></div>
