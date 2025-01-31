@@ -62,9 +62,9 @@ const Join = () => {
     return (
         <>
         <HeaderNav/>
-        <div className="page3">
+        <div className="Join">
             <div className="background-circles"></div>
-            <main className="page3-main">
+            <main className="Join-main">
                 <div className="text-section">
                     <h1>Join the<span className="highlight"> fun.</span></h1>
                 </div>
