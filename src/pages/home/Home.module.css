@@ -20,17 +20,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 2.6rem
 }
 
 .titlePageOne {
     display: flex;
     font-weight: 400;
     line-height: normal;
+    font-size: 49px;
+    text-align: start;
+    margin-bottom: 0;   
+    margin-top: 8rem;
 }
 
 .textPageOne {
-    display: flex;
-    padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .circleTop {
@@ -77,8 +81,14 @@
     justify-content: space-around;
 }
 
+.textButtonCard {
+    width: 22rem;
+    height: 14rem;
+}
+
 .titlePageOne {
-    height: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .girlImg {
