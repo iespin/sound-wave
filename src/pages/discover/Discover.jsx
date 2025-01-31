@@ -28,7 +28,7 @@ function Discover () {
                         <p>More</p>
                     </div>
                 </div>
-            <h5>By joining you can benefit by listening to the latest albums released.</h5>
+            <h1>By joining you can benefit by listening to the latest albums released.</h1>
         </div>
         <div className={styles.CenterImage}>
             <img src={covers} alt="album covers" />
