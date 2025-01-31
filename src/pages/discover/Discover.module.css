@@ -37,13 +37,12 @@
 
 .Title {
     font-size: 4rem;
-    font-weight: bold;
     margin-bottom: 1rem;
     align-self: flex-start;
     width: 90%;
 }
 
-h5 {
+h1 {
     font-size: 1rem;
     margin-top: 1rem;
     color: white;
@@ -56,10 +55,9 @@ h5 {
 }
 
 .CenterImage img {
-    width: 280px;
+    width: 240px;
     max-width: 800px;
-    height: 280px;
-    border-radius: 5px;
+    height: 230px;
 }
 
 @media (min-width: 1024px) {
