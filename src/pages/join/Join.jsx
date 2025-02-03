@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Join.css";
+import styles from '../join/Join.module.css';
 import HeaderNav from "../../components/navbar/Navbar";
 import Footer from '../../components/footer/Footer'
 
@@ -62,13 +62,13 @@ const Join = () => {
     return (
         <>
         <HeaderNav/>
-        <div className="Join">
-            <div className="background-circles"></div>
-            <main className="Join-main">
-                <div className="text-section">
-                    <h1>Join the<span className="highlight"> fun.</span></h1>
+        <div className={styles.Join}>
+            <div className={styles.backgroundCircles}></div>
+            <main className={styles.JoinMain}>
+                <div className={styles.textSection}>
+                    <h1>Join the <span className={styles.highlight}>fun.</span></h1>
                 </div>
-                <form onSubmit={handleSubmit} className="form-section">
+                <form onSubmit={handleSubmit} className={styles.formSection}>
                     <label><b>Name:</b>
                         <input
                             type="text"
@@ -76,7 +76,7 @@ const Join = () => {
                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                         />
                     </label>
-                    {errors.name && <p className="error-message">{errors.name}</p>}
+                    {errors.name && <p className={styles.errorMessage}>{errors.name}</p>}
 
                     <label><b>Email:</b>
                         <input
@@ -85,7 +85,7 @@ const Join = () => {
                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         />
                     </label>
-                    {errors.email && <p className="error-message">{errors.email}</p>}
+                    {errors.email && <p className={styles.errorMessage}>{errors.email}</p>}
 
                     <label><b>Password:</b>
                         <input
@@ -94,10 +94,10 @@ const Join = () => {
                             onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                         />
                     </label>
-                    {errors.password && <p className="error-message">{errors.password}</p>}
+                    {errors.password && <p className={styles.errorMessage}>{errors.password}</p>}
 
                     <button type="submit">Join Now</button>
-                    {successMessage && <p className="success-message">{successMessage}</p>}
+                    {successMessage && <p className={styles.successMessage}>{successMessage}</p>}
                 </form>
             </main>
         </div>
