@@ -1,4 +1,4 @@
-describe('discover content', () => {
+describe('join content', () => {
   it('the h1 should contain the correct text', () => {
     cy.visit('/Discover')
     cy.get('h1').contains('Discover new music')
