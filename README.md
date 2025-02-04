@@ -93,4 +93,7 @@ If you wish to contribute to the project, please:
 
 ## License
 This project is licensed under the MIT License.
->>>>>>> dev
+
+
+## Authors
+Developed by Guadalupe Hani, Mariana Marin, Miriam Sánchez, Priscila Guillén and Israel Espín.
