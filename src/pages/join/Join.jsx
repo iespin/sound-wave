@@ -15,7 +15,7 @@ const Join = () => {
         const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@+`'-¡ç´¡$!%*?&#.$($)$-$_]{8,16}$/;
         const trimmedPassword = formData.password.trim();
 
-        console.log("Validating password:", trimmedPassword);  // pass?
+        console.log("Validating password:", trimmedPassword);  
 
        
         if (!formData.name.trim()) {
@@ -35,7 +35,7 @@ const Join = () => {
         if (!trimmedPassword) {
             errors.password = "⚠ Password is required.";
         } else if (!passwordRegex.test(trimmedPassword)) {
-            console.log("Password regex failed for:", trimmedPassword);  // error?
+            console.log("Password regex failed for:", trimmedPassword);  
             errors.password = "⚠ Password must be at least 8 characters, include one uppercase letter, one lowercase letter, one number, and one symbol.";
         }
 
@@ -53,7 +53,7 @@ const Join = () => {
             setSuccessMessage("🎉 Form submitted successfully!");
             setFormData({ name: "", email: "", password: "" });
             setErrors({});
-            setTimeout(() => setSuccessMessage(""), 9000); // Clear message 
+            setTimeout(() => setSuccessMessage(""), 9000);  
         } else {
             setSuccessMessage("");
         }
